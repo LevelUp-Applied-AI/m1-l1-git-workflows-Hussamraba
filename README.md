@@ -1,41 +1,28 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FdVrU54p)
-# [Project Title — e.g., Hospital Admission Records Analysis]
+# Hospital Admission Records Analysis
 
-> **Lab 1 starter repo** — Replace the heading above with your project title. Team member names are not part of the lab — they go in Section 2 of your completed README in the integration task.
-
----
+## Team Members
+- Hussam Rabaa
+- Omar Allahham
 
 ## Project Overview
+This project analyzes hospital admission records to identify patient admission trends, support exploratory analysis, and improve understanding of hospital activity patterns. It is intended for team members working on data analysis and reporting, and the project output will include reusable code, visualizations, and documented analysis workflows.
 
-TODO: Write 2–3 sentences describing what this project does and who it is for.
+## Data Sources
+This project uses hospital admission records data for analysis and visualization. The expected raw dataset will be stored at:
 
----
+`data/raw/admissions.csv`
+
+Data is not tracked in this repository. See the setup instructions below
+for how to obtain and place the data files before running any analysis.
+
+Contributors should create the `data/raw/` directory locally and place
+the required raw data files there before running notebooks or analysis scripts.
 
 ## Setup Instructions
-
-TODO: Complete these setup steps after creating your `requirements.txt`:
+Run the following commands to set up the project locally:
 
 ```bash
+git clone https://github.com/HussamRabaa/m1-l1-git-workflows-Hussamraba.git
+cd m1-l1-git-workflows-Hussamraba
 python -m venv .venv
-
-# Activate — choose the command for your OS:
-# Mac / Linux:      source .venv/bin/activate
-# Windows Git Bash: source .venv/Scripts/activate
-# Windows CMD:      .venv\Scripts\activate.bat
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-
-pip install -r requirements.txt
-python test_environment.py    # should print "Environment OK"
-```
-
----
-
-## Contributing
-
-- Branch naming: `setup/`, `feature/`, `fix/`
-- Open a PR to `main` for all changes
-- Commit messages: imperative mood, ≤ 50 characters
-
----
-
-*Starter file for Lab 1 — lab-1-git-workflows | aispire-14005*
+python -m venv .venv
